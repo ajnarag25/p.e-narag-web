@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <title>Borrow Equipments - P.E Department</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link href="ssc/main.css" rel="stylesheet" media="all">
+</head>
+
+
+<body>
+    <div class="page-wrapper bg-dark p-t-100 p-b-50">
+        <div class="wrapper wrapper--w900">
+            <div class="card card-6">
+                <form action="MainPage.html">
+                <div><button style="color: white; font-family: inherit; font-size: 20px; cursor: pointer;">Home</button></div>
+                </form>
+                <div class="card-heading">
+                    <h3 class="title">Borrow Equipments</h3>
+                </div>
+                                  
+
+                <div class="card-body">
+                    <form method="POST">
+                        <div class="form-row">
+                            <div class="name">I.D Number</div>
+                            <div class="value">
+                                <input class="input--style-5" type="text" name="idnumber" placeholder="TUPC-XX-XXXX">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Full Name</div>
+                            <div class="value">
+                                <input class="input--style-5" type="text" name="full_name" placeholder="Juan Dela Cruz">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Email address</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="email" name="email" placeholder="example@email.com">
+                                </div>
+                            </div>
+                        </div>
+                         <div class="form-row">
+                            <div class="name">Cellphone Number</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="cellnumber" placeholder="09-xxx-xxx-xxx">
+                                </div>
+                            </div>
+                        </div>
+                          <div class="form-row">
+                            <div class="name">Course</div>
+                                <div class="input-group">
+                                    <select class="name" id="course" name="course" style="font-size: 15px;">
+                                        <option>BET-COET</option>
+                                        <option>BET-MT</option>
+                                        <option>BET-AT</option>
+                                        <option>BS-IE</option>
+                                    </select>
+                            </div>
+                        </div>
+                          <div class="form-row">
+                            <div class="name">Strand</div>
+                                <div class="input-group">
+                                    <select class="name" id="strand" name="strand" style="font-size: 15px;">
+                                        <option>STEM</option>
+                                        <option>NON-STEM</option>
+                                        <option>NO STRAND</option>
+                                    </select>
+                                </div>
+                        </div>
+                           <div class="form-gen">
+                            <div class="name">Item Info</div>
+                                <div class="input-group">
+                                       <select class="name" id="strand" name="strand" style="font-size: 15px;">
+                                        <option>Basketball</option>
+                                        <option>Volleyball</option>
+                                        <option>SoccerBall</option>
+                                        <option>Badminton</option>
+                                        <option>Pingpong</option>
+                                    </select>
+                                    <div class="form-name1"><label class="name">Quantity:</label>
+                                    <input type="number" value="1" min="0" max="10" name="shirt" style="width: 20%;"></div>
+                            </div>  
+                        </div>
+                           <div class="form-gen">
+                            <div class="name">If the item is not in the list please type it here:</div>
+                                <div class="input-group">
+                                      <input class="input--style-5" type="text" name="type" placeholder="Basketball">
+                                </div>
+                        </div>
+                          <div class="form-row">
+                            <div class="name">Date of Borrow</div>
+                            <div class="input-group">
+                                    <input class="input--style-5" type="date" min = "2020-09-20" max="2030-09-28">
+                                </div>
+                        </div>
+                            <div class="form-row">
+                            <div class="name">Date of Return</div>
+                            <div class="input-group">
+                                    <input class="input--style-5" type="date" min = "2020-09-20" max="2030-09-28">
+                                </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Upload image<br>*optional*</div>
+                            <div class="value">
+                                <div class="input-group js-input-file">
+                                    <input class="input-file" type="file" name="file_cv" id="file">
+                                    <label class="label--file" for="file">Choose file</label>
+                                    <span class="input-file__info">No file chosen</span>
+                                </div>
+                                <div class="label--desc">Upload your photo/image for account verification. Max file size 5 MB</div>
+                            </div>
+                        </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn--radius-2 btn--blue-2" type="submit">Borrow Equipment</button>
+                   </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="rodnev/jquery/jquery.min.js"></script>
+    <script src="sj/global.js"></script>
+
+</body>
+
+</html>
